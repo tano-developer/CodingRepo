@@ -10,7 +10,7 @@ body {
 
 header {
     background: #74C69D;
-    padding: 10px 0;
+    padding: 0px 0;
 }
 
 .logo img {
@@ -24,6 +24,11 @@ header {
     font-weight: bold;
     vertical-align: middle;
     color: #fff;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
 }
 
 .nav {
@@ -41,9 +46,24 @@ header {
     font-size: 20px;
 }
 
+.navbar-toggler {
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    align-items: end;
+    margin-left: 20px; 
+    margin-top: 30px;
+    display: none;
+}
+
+.navbar-toggler i {
+    margin-bottom: 40px;
+}
+
 .hero-session {
     background-color: #74C69D;
     height: 660px;
+    padding: 80px 0;
 }
 
 .content h6 {
@@ -60,7 +80,7 @@ header {
 }
 
 .content p {
-    margin-bottom: 45px;
+    margin-bottom: 35px;
     font-size: 16px;
     color: #fff;
     width: 65%;
@@ -234,8 +254,7 @@ header {
 
 .cards .card .card-data p {
     font-size: 10px;
-    padding-right: 25px;
-
+    padding-right: 30px;
 }
 
 .view-btn {
@@ -252,8 +271,13 @@ header {
 .footer {
     margin-top: 40px;
     background: #74C69D;
-    text-align: center;
     padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
 }
 
 .footer-links i {
@@ -266,3 +290,179 @@ header {
     color: #fff;
     font-size: 16px;
 }
+
+
+@media (max-width: 991px) {
+
+    header {
+        padding: 0 0;
+    }
+    .nav {
+        display: none;
+    }
+
+    .navbar-toggler {
+        display: block; 
+    }
+
+    .logo{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 40px;
+    }
+
+    .logo span {
+        font-size: 40px;
+    }
+
+    .nav-toggle-mb{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .hero-session {
+        height: auto; 
+        padding: 20px 0;
+    }
+
+    .content,
+    .image {
+        width: 100%; 
+        text-align: center; 
+        margin-bottom: 40px; 
+    }
+
+    .content h2 {
+        font-size: 32px; 
+    }
+
+    .content p {
+        width: 90%;
+        margin: 0 auto 20px; 
+    }
+
+    .explore-btn {
+        width: 150px; 
+        height: 40px; 
+    }
+
+    .hero-session .image img {
+        width: 100%; 
+        height: auto;
+    }
+
+    .social-logo {
+        height: auto;
+    }
+
+    .social-logo .logos img{
+        width: 150px;  
+        margin-bottom: 25px; 
+    }
+
+    .network-session {
+        height: auto;
+    }
+
+    .group-image,
+    .network-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .network-content  p {
+        width: 90%;
+        margin: 0 auto 20px; 
+    }
+
+    .network-session  img {
+        width: 100%; 
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .manage-session {
+        height: auto;
+    }
+
+    .manage-content, 
+    .group-image {
+        width: 100%;
+        text-align: center;
+      
+    }
+
+    .manage-content {
+        margin-bottom: 35px;
+    }
+
+    .manage-content  p {
+        width: 90%;
+        margin: 0 auto 20px; 
+    }
+
+    .group-image  img {
+        width: 100%; 
+        height: auto;    
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .copyright {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 1325px) {
+    .hero-session .image img {
+        width: 100%; 
+        height: 100%;
+    }
+}
+
+@media (max-width: 1400px) {
+    .spotify {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .microsoft {
+        display: none;
+    }
+}
+
+@media  (max-width: 990px) {
+    .team-session .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards .card {
+        margin: 20px 0;
+    }
+}
+
+@media  (max-width: 480px) {
+    .cards .card {
+        width: 80%;
+    }
+
+    .cards .card .card-image {
+        width: 50%;
+        height: auto;
+    }
+
+    .cards .card .card-data {
+        padding-right: 0;
+    }
+}
+
