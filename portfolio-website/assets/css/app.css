@@ -1,0 +1,468 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #74C69D;
+    padding: 0px 0;
+}
+
+.logo img {
+    width: 80px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.logo span {
+    font-size: 50px;
+    font-weight: bold;
+    vertical-align: middle;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.navbar-toggler {
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    align-items: end;
+    margin-left: 20px; 
+    margin-top: 30px;
+    display: none;
+}
+
+.navbar-toggler i {
+    margin-bottom: 40px;
+}
+
+.hero-session {
+    background-color: #74C69D;
+    height: 660px;
+    padding: 80px 0;
+}
+
+.content h6 {
+    color: #fff;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.content p {
+    margin-bottom: 35px;
+    font-size: 16px;
+    color: #fff;
+    width: 65%;
+}
+
+.hero-session_data .image {
+    width: 649px;
+    height: 357px;
+}
+
+.explore-btn {
+    width: 170px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+.social-logo {
+    margin-top: 40px;
+}
+
+.social-logo h6 {
+    color: #74C69D;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.social-logo h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.social-logo p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.social-logo .logos {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.social-logo .logos img{
+    margin: 0 25px;
+}
+
+.learn-btn1 {
+    width: 170px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #000;
+    margin: 40px auto; 
+    display: block; 
+}
+
+.network-session {
+    margin-top: 40px;
+}
+
+.network-content {
+    padding-top: 35px;
+    padding-left: 45px;
+}
+
+.group-image img {
+    width: 510px;
+    height: 400px;
+}
+
+.network-content h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.network-session p {
+    width: 75%;
+    font-size: 16px;
+}
+
+.learn-btn2 {
+    width: 170px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 40px;
+    background-color: #000;
+}
+
+.manage-session {
+    margin-top: 40px;
+}
+
+.manage-content {
+    padding-top: 100px;
+}
+
+.manage-content h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.manage-content p {
+    width: 70%;
+    font-size: 16px;
+}
+
+.team-session {
+    margin-top: 40px;
+}
+
+.team-session h6 {
+    color: #74C69D;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.team-session h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.team-session p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.team-session .cards{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around; 
+}
+
+.cards .card {
+    width: 250px;
+    height: 280px;
+    padding: 30px 20px;
+    margin: 0 10px; 
+    text-align: center; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cards .card .card-image {
+    width: 175px;
+    height: 175px;
+    text-align: center;
+}
+
+.cards .card .card-data {
+    padding-right: 100px;
+    line-height: 8px;
+}
+
+.cards .card .card-data h5 {
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: bold;  
+}
+
+.cards .card .card-data p {
+    font-size: 10px;
+    padding-right: 30px;
+}
+
+.view-btn {
+    width: 170px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #000;
+    margin: 40px auto; 
+    display: block; 
+}
+
+.footer {
+    margin-top: 40px;
+    background: #74C69D;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.footer-links i {
+    margin-right: 15px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.copyright {
+    color: #fff;
+    font-size: 16px;
+}
+
+
+@media (max-width: 991px) {
+
+    header {
+        padding: 0 0;
+    }
+    .nav {
+        display: none;
+    }
+
+    .navbar-toggler {
+        display: block; 
+    }
+
+    .logo{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 40px;
+    }
+
+    .logo span {
+        font-size: 40px;
+    }
+
+    .nav-toggle-mb{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .hero-session {
+        height: auto; 
+        padding: 20px 0;
+    }
+
+    .content,
+    .image {
+        width: 100%; 
+        text-align: center; 
+        margin-bottom: 40px; 
+    }
+
+    .content h2 {
+        font-size: 32px; 
+    }
+
+    .content p {
+        width: 90%;
+        margin: 0 auto 20px; 
+    }
+
+    .explore-btn {
+        width: 150px; 
+        height: 40px; 
+    }
+
+    .hero-session .image img {
+        width: 100%; 
+        height: auto;
+    }
+
+    .social-logo {
+        height: auto;
+    }
+
+    .social-logo .logos img{
+        width: 150px;  
+        margin-bottom: 25px; 
+    }
+
+    .network-session {
+        height: auto;
+    }
+
+    .group-image,
+    .network-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .network-content  p {
+        width: 90%;
+        margin: 0 auto 20px; 
+    }
+
+    .network-session  img {
+        width: 100%; 
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .manage-session {
+        height: auto;
+    }
+
+    .manage-content, 
+    .group-image {
+        width: 100%;
+        text-align: center;
+      
+    }
+
+    .manage-content {
+        margin-bottom: 35px;
+    }
+
+    .manage-content  p {
+        width: 90%;
+        margin: 0 auto 20px; 
+    }
+
+    .group-image  img {
+        width: 100%; 
+        height: auto;    
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .copyright {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 1325px) {
+    .hero-session .image img {
+        width: 100%; 
+        height: 100%;
+    }
+}
+
+@media (max-width: 1400px) {
+    .spotify {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .microsoft {
+        display: none;
+    }
+}
+
+@media  (max-width: 990px) {
+    .team-session .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards .card {
+        margin: 20px 0;
+    }
+}
+
+@media  (max-width: 480px) {
+    .cards .card {
+        width: 80%;
+    }
+
+    .cards .card .card-image {
+        width: 50%;
+        height: auto;
+    }
+
+    .cards .card .card-data {
+        padding-right: 0;
+    }
+}
+
